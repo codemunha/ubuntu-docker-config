@@ -1,6 +1,6 @@
 # Ubuntu Docker Config
 
-## If you want to run docker as non-root user then you need to add it to the docker group.
+If you want to run docker as non-root user then you need to add it to the docker group.
 
 
 1.Create the docker group if it does not exist
