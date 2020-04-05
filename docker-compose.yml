@@ -1,0 +1,9 @@
+version: '2'
+services:
+  medium_a:
+    image: nginx:1.13.0-alpine
+    container_name: medium_a
+    ports:
+      - '8080:80'
+    expose:
+      - 80
